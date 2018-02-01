@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+option java_package = "com.mqs.test";
+
+option java_outer_classname = "MessageProtos";
+
+message Message {
+    required string content = 1;
+}
